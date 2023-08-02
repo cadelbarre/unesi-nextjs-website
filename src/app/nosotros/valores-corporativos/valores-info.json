@@ -1,0 +1,34 @@
+{
+    "valoresCorporativos": [
+        {
+            "title": "Profesionalismo",
+            "message": "Especialista con amplia trayectoria en el sector salud, respaldados por la realización de los estudios idóneos en la rama de la Neurocirugía y Neurocirugía intervencionista a nivel nacional e internacional",
+            "icon": "userDoctor"
+        },
+        {
+            "title": "Confidencialidad",
+            "message": "De acuerdo a la naturaleza de nuestra labor, le damos un tratamiento de absoluta reserva a la información de nuestros pacientes de acuerdo a los procedimientos legales y éticos por los cuales nos regimos.",
+            "icon": "lock"
+        },
+        {
+            "title": "Oportunidad",
+            "message": "Con la que cuenta el usuario al solicitar nuestros servicios, con el fin de no presentar demoras o retrasos que coloquen en riesgo su vida o salud.",
+            "icon": "oportunity"
+        },
+        {
+            "title": "Honestidad",
+            "message": "Trabajamos bajo el compromiso de brindar un servicio transparente en aras de asegurar una relación confiable con nuestros pacientes",
+            "icon": "honesty"
+        },
+        {
+            "title": "Calidad",
+            "message": "Somos respetuosos de las circunstancias de cada caso atendido y buscamos dar un tratamiento adecuado a cada una de ellas, anteponiendo el sentido humano del servicio.",
+            "icon": "quality"
+        },
+        {
+            "title": "Satisfación del Cliente",
+            "message": "Superando expectativas de sus necesidades frente a la atención, seguimiento y resultados obtenidos en el servicio recibido.",
+            "icon": "satisfiedUser"
+        }
+    ]
+}

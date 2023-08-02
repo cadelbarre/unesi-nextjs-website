@@ -1,0 +1,15 @@
+ls:
+  .js: kebab-case
+  .ts: kebab-case
+  .jsx: kebab-case
+  .tsx: kebab-case
+  .d.ts: kebab-case
+
+ignore:
+  - node_modules
+  - .gitignore
+  - .next
+  - .git
+  - tailwind.config.js
+  - postcss.config.js
+  - next.config.js
