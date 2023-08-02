@@ -21,10 +21,10 @@ export default function Slider (): JSX.Element {
       slidesPerView={1}
     >
       <SwiperSlide className='h-screen w-screen max-h-[40rem]'>
-        <img src='/sliders/beneficios-deporte.png' />
+        <img src='/sliders/beneficios-deporte.webp' alt='beneficios-deporte' />
       </SwiperSlide>
       <SwiperSlide className='h-screen w-screen max-h-[40rem]'>
-        <img src='/sliders/tipos-de-ataques.png' alt='' className='object-cover object-top w-full aspect-auto block' />
+        <img src='/sliders/tipos-de-ataques.webp' alt='tipos-de-ataques-ACV' className='object-cover object-top w-full aspect-auto block' />
       </SwiperSlide>
     </Swiper>
   )
