@@ -28,11 +28,11 @@ export default function HeaderLinks (): JSX.Element {
           </NavigationMenu.Content>
         </NavigationMenu.Item>
 
-        <NavigationMenu.Item>
+        {/* <NavigationMenu.Item>
           <NavigationMenu.Link className='flex items-center py-2 px-4 rounded-lg hover:bg-gray-50' href='/preguntas-frecuentes'>
             Preguntas Frecuentes
           </NavigationMenu.Link>
-        </NavigationMenu.Item>
+        </NavigationMenu.Item> */}
 
         <NavigationMenu.Item>
           <NavigationMenu.Link className='flex items-center py-2 px-4 rounded-lg hover:bg-gray-50' href='/contacto'>
