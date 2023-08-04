@@ -6,8 +6,8 @@ export default function QuienesSomos (): JSX.Element {
   return (
     <>
       <PageTitle title='Nosotros' />
-      <Container className='pt-24 pb-14 grid place-items-center'>
-        <div className='grid grid-cols-2 gap-x-14'>
+      <Container className='pt-16 md:pt-24 pb-14 grid place-items-center'>
+        <div className='grid grid-cols-1 sm:grid-cols-2 gap-x-14 gap-y-16'>
           <div className='space-y-8'>
             <div>
               <h3 className='font-bold text-2xl'>Misión</h3>

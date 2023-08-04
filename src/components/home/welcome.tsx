@@ -7,7 +7,7 @@ export default function Welcome (): JSX.Element {
         <img src='/doctor_jairo_fernandez.webp' alt='Doctor Jairo Fernandez' className='rounded-lg w-full aspect-auto object-cover' loading='lazy' />
       </picture>
       <div className='self-center'>
-        <h1 className='flex flex-col text-5xl mb-8 gap-1 text-primary'>
+        <h1 className='flex flex-col text-4xl md:text-5xl mb-8 gap-1 text-primary'>
           <span className='font-thin'>Bienvenidos a </span>
           <span className='uppercase font-bold'>unesi Ltda</span>
         </h1>

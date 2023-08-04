@@ -26,7 +26,7 @@ export default function ValoresCorporativos (): JSX.Element {
             <h2 className='text-4xl md:text-5xl font-bold pb-4 text-primary'>Valores Corporativos</h2>
           </header>
 
-          <div className='mx-auto mt-16 max-w-2xl lg:max-w-4xl'>
+          <div className='mx-auto mt-8 sm:mt-16 max-w-2xl lg:max-w-4xl'>
             <div className='h-60 aspect-auto mb-12 sm:mb-20 lg:mb-24 rounded-lg shadow-lg shadow-primary/20'>
               <img src='/images/valores-corporativos.avif' alt='' className=' object-cover h-full w-full object-top rounded-lg' />
             </div>

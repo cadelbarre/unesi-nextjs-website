@@ -6,7 +6,7 @@ export default function DerechosYDeberes (): JSX.Element {
     <>
       <PageTitle title='Derechos y Deberes' />
       <Container className='py-16 md:py-24 grid place-items-center bg-white'>
-        <div className='mx-auto max-w-7xl px-6 lg:px-8'>
+        <div className='mx-auto max-w-7xl lg:px-8'>
 
           <header className='mb-6 text-center flex flex-col justify-center items-center max-w-[42rem] mx-auto'>
             <h2 className='text-4xl md:text-5xl font-bold pb-4 text-primary'>Derechos y Deberes</h2>
@@ -19,7 +19,7 @@ export default function DerechosYDeberes (): JSX.Element {
 
             <div className='w-full md:w-4/5 flex flex-col gap-y-14 sm:gap-y-20 '>
               <div className='space-y-8'>
-                <h2 className='text-4xl font-medium tracking-tighter mb-8 gap-1 text-primary'>Mis Derechos</h2>
+                <h2 className='text-3xl font-medium tracking-tighter mb-8 gap-1 text-primary'>Mis Derechos</h2>
                 <article>
                   <h3 className='font-semibold'>A Conocer</h3>
                   <ul className='list-disc ml-10'>
@@ -108,7 +108,7 @@ export default function DerechosYDeberes (): JSX.Element {
               </div>
 
               <div className='space-y-8'>
-                <h2 className='text-4xl font-medium tracking-tighter mb-8 gap-1 text-primary'>Mis Deberes</h2>
+                <h2 className='text-3xl font-medium tracking-tighter mb-8 gap-1 text-primary'>Mis Deberes</h2>
                 <article>
                   <h3 className='font-semibold'>A Informar</h3>
                   <ul className='list-disc ml-10'>
