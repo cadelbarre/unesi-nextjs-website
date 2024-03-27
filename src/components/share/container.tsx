@@ -1,3 +1,4 @@
+import { twMerge } from 'tailwind-merge'
 
 export default function Container ({
   children,
@@ -6,7 +7,7 @@ export default function Container ({
 { children: React.ReactNode
   className?: string }): JSX.Element {
   return (
-    <section className={`container px-6 md:px-0 mx-auto max-w-[70rem] ${className}`}>
+    <section className={twMerge('container px-6 md:px-0 mx-auto max-w-[70rem]', className)}>
       {children}
     </section>
   )
