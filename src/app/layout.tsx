@@ -1,7 +1,23 @@
-
-import Header from '@/components/header'
+import { Work_Sans, Roboto, Mulish } from 'next/font/google'
+import Header from '@/components/layout/navbar'
 import Footer from '@/components/footer'
 import './globals.css'
+
+const workSans = Work_Sans({
+  subsets: ['latin'],
+  display: 'swap'
+})
+
+const roboto = Roboto({
+  subsets: ['latin'],
+  display: 'swap',
+  weight: ['300', '400']
+})
+
+const mulish = Mulish({
+  subsets: ['latin'],
+  display: 'swap'
+})
 
 export const metadata = {
   title: {
@@ -68,14 +84,14 @@ export default function RootLayout ({
   children: React.ReactNode
 }): JSX.Element {
   return (
-    <html lang='en'>
+    <html lang='es' className={`${workSans.className} ${roboto.className} ${mulish.className}`}>
       <body id='root'>
         <Header />
         <main className='flex min-h-screen flex-col items-center justify-between relative'>
           {children}
         </main>
         <Footer />
-        <a href='https://api.whatsapp.com/send?phone=573152616685&text=Hola,%20quisiera%20solicitar%20una%20cita%20con%20el%20doctor%20para%20el%20d%C3%ADa%20...' target='_blank' className='fixed bottom-6 left-6 z-20 h-10 md:h-14 aspect-square hover:scale-110 transition-transform duration-300 ease-in-out' rel='noreferrer'>
+        <a href='https://api.whatsapp.com/send?phone=573152616685&text=Hola,%20quisiera%20solicitar%20una%20cita%20con%20el%20doctor%20para%20el%20d%C3%ADa%20...' target='_blank' className='fixed bottom-6 left-6 z-20 h-10 md:h-14 aspect-square hover:scale-110 transition-transform duration-300 ease-in-out' rel='noreferrer noopener'>
           <img src='/whatsapp.svg' alt='whatsapp logo' className='object-fill drop-shadow-md' />
         </a>
 
