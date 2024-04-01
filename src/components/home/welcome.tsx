@@ -10,7 +10,7 @@ export default function Welcome (): JSX.Element {
       <div className='self-center'>
         <Title className='font-bold tracking-tight mb-8'>
           Bienvenidos a
-          <span>UNESI Ltda</span>
+          <span>UNESI S.A.S</span>
         </Title>
         <div className='w-[50ch]'>
           <p>En nombre de todos los miembros le damos la bienvenida a nuestra página. Trabajamos todos los días del año para proveer la mejor atención y cuidado de su salud. </p>
