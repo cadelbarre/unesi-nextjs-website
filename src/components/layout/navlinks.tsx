@@ -19,11 +19,11 @@ export default function HeaderLinks (): JSX.Element {
             Nosotros <CaretDownIcon className='ml-1' aria-hidden />
           </NavigationMenu.Trigger>
           <NavigationMenu.Content className='relative'>
-            <ul className='absolute bg-white shadow-lg rounded-lg w-56 space-y-4 py-6 px-5'>
-              <Link href='/nosotros' className='block text-gray-500 rounded md:p-0 font-normal hover:text-primary'>Quienes Somos</Link>
-              <Link href='/nosotros/valores-corporativos' className='block text-gray-500 rounded md:p-0 font-normal hover:text-primary'>Valores Corporativos</Link>
-              <Link href='/nosotros/politicas-de-calidad' className='block text-gray-500 rounded md:p-0 font-normal hover:text-primary'>Políticas de Calidad</Link>
-              <Link href='/nosotros/derechos-y-deberes' className='block text-gray-500 rounded md:p-0 font-normal hover:text-primary'>Derechos y Deberes</Link>
+            <ul className='absolute bg-white shadow-lg rounded-lg w-56 border-t-4 border-primary-black py-3'>
+              <Link href='/nosotros' className='block text-gray-500 rounded font-normal hover:text-primary-black px-5 py-3'>Quienes Somos</Link>
+              <Link href='/nosotros/valores-corporativos' className='block text-gray-500 rounded font-normal hover:text-primary-black px-5 py-3'>Valores Corporativos</Link>
+              <Link href='/nosotros/politicas-de-calidad' className='block text-gray-500 rounded font-normal hover:text-primary-black px-5 py-3'>Políticas de Calidad</Link>
+              <Link href='/nosotros/derechos-y-deberes' className='block text-gray-500 rounded font-normal hover:text-primary-black px-5 py-3'>Derechos y Deberes</Link>
             </ul>
           </NavigationMenu.Content>
         </NavigationMenu.Item>
