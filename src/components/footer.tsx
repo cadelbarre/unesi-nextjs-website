@@ -21,7 +21,7 @@ export default function Footer (): JSX.Element {
         </div>
 
         <div className='mt-10 pt-8 border-t border-t-white border-opacity-10'>
-          <p className='text-sm text-gray-400'>Diseñado y hospedado por <a href='' className='text-gray-100 font-bold'>Carlos Delbarre</a></p>
+          <p className='text-sm text-gray-400'>Diseñado y hospedado por <a href='https://www.effortiaweb.com' target='_blank' className='text-gray-100 font-bold' rel='noreferrer'>Effortia Web</a></p>
         </div>
       </Container>
 
