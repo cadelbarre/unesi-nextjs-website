@@ -7,9 +7,8 @@ export default function Indicators (): JSX.Element {
 
   return (
     <section className='w-full relative'>
-      <img src='/images/overlay-indicators.webp' alt='' className='w-full h-full -z-10 absolute object-cover inset-0 bg-primary-black' loading='lazy' />
-      <Container className='py-16 md:pt-28 md:pb-28 flex flex-col gap-24 '>
-        <dl className='grid grid-cols-2 md:grid-cols-4 gap-8 first:[&>div]:border-0 [&>div]:border-l [&>div]:border-gray-50 [&>div]:border-opacity-20 mt-8 text-white'>
+      <Container className='py-24 bg-primary-black rounded-xl bg-[url(/images/overlay-indicators.webp)]'>
+        <dl className='grid grid-cols-2 md:grid-cols-4 gap-8 first:[&>div]:border-0 [&>div]:border-l [&>div]:border-gray-100/40 mt-8 text-white'>
           <div className='pl-6 flex flex-col space-y-2 text-center'>
             <dt className='text-4xl md:text-6xl font-extrabold'>
               +<CountUp end={8000} duration={5} enableScrollSpy scrollSpyOnce />
