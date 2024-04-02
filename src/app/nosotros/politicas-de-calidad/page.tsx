@@ -21,10 +21,10 @@ export default function PoliticasCalidad (): JSX.Element {
                 info.politicas.map(politica => {
                   return (
                     <div className='relative' key={politica.title}>
-                      <dt className='text-lg font-semibold leading-7 text-gray-900'>
+                      <dt className='text-xl tracking-tight font-bold text-primary-black text-balance'>
                         {politica.title}
                       </dt>
-                      <dd className='mt-2 text-base leading-7 text-gray-800 text-balance'>{politica.description}</dd>
+                      <dd className='mt-2 text-base text-gray-800 text-balance'>{politica.description}</dd>
                     </div>
                   )
                 })
