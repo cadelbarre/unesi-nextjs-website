@@ -7,7 +7,7 @@ export default function Welcome (): JSX.Element {
       <picture className='w-full aspect-auto relative z-0 bg-gray-200 rounded-lg'>
         <img src='/doctor_jairo_fernandez.webp' alt='Doctor Jairo Fernandez' className='rounded-lg w-full aspect-auto object-cover' loading='lazy' />
       </picture>
-      <div className='self-center'>
+      <div className='self-center ml-11'>
         <Title className='font-bold tracking-tight mb-8'>
           Bienvenidos a
           <span>UNESI S.A.S</span>
