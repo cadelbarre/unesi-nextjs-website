@@ -1,4 +1,5 @@
 ## LISTOS
+
 - Cambiar el navbar
 - colocarle defuminado en los bordes donde estan los logos
 - arreglar titulo y subtitulo
@@ -8,6 +9,7 @@
 - Cambiar el testimonial
 
 ## PENDIENTES
+
 - Utilizar fotos del colni ó de instagram
 - Arreglar el footer
 - Hacer conexion con Contenful para cargar la informacion
@@ -18,4 +20,12 @@
 - Adicionar el logo de colni al marquee
 - Colocar los logos de las clinicas que tiene convenios
 - Completar testimonial
+- Colocar los videos del doctor de youtube
+- montar los videos en cloudflare para que no se borren
+- adicionar el link a la plataforma de la historia medica 'softwaremedico.com'
 
+## Paginas adicionales
+
+- servicios
+  - Colocamos los servicios como: consulta especializada, y ...
+- Call to Action
