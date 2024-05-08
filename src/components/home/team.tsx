@@ -11,7 +11,7 @@ export default function Team (): JSX.Element {
         <p className='text-lg mt-2'>Los mejores de su área para ofrecer siempre lo mejor</p>
       </header>
 
-      <section className='mt-10 md:mt-20'>
+      <section className='mt-10 md:mt-12'>
         <ul className='grid grid-cols-1 md:grid-cols-2 gap-x-8 gap-y-16'>
           {
             medicos.map(({ nombre, informacion, especialidad, imagen }) => {
