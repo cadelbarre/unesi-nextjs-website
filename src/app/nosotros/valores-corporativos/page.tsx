@@ -47,7 +47,6 @@ export default function ValoresCorporativos (): JSX.Element {
           </div>
         </div>
       </Container>
-      <Indicators />
     </>
   )
 }
