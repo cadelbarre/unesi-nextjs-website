@@ -2,10 +2,10 @@ import Link from 'next/link'
 
 export default function FooterLink (): JSX.Element {
   return (
-    <div className='col-span-2'>
-      <div className='grid grid.cols-1 md:grid-cols-3 gap-16 md:gap-8'>
+    <div className='col-span-2 '>
+      <div className='grid grid.cols-1 md:grid-cols-3 gap-16 md:gap-8 '>
 
-        <div className='text-sm'>
+        <div className='text-sm ml-6'>
           <h3 className='text-lg font-bold leading-7 text-white'>Accesos Rapidos</h3>
           <ul className='flex flex-col gap-y-2 mt-6 text-gray-300 space-y-3'>
             <li className='hover:text-white hover:translate-x-1 transition duration-300 ease-in-out'>
@@ -23,7 +23,7 @@ export default function FooterLink (): JSX.Element {
           </ul>
         </div>
 
-        <div className=' text-sm'>
+        <div className=' text-sm -ml-6'>
           <h3 className='text-lg font-bold leading-7 text-white'>Donde Estamos</h3>
           <ul className='flex flex-col gap-y-2 mt-6 text-gray-300 space-y-3'>
             <li className='flex gap-x-3 leading-6'>

@@ -3,7 +3,7 @@ import FooterLink from './footer-links'
 
 export default function Footer (): JSX.Element {
   return (
-    <footer className='bg-gray-900 pt-24 md:pt-32 pb-8 font-medium'>
+    <footer className='bg-gray-900 pt-16 md:pt-24 pb-8 font-medium'>
       <Container className='flex flex-col gap-24 '>
         <div className='grid grid-cols-1 md:grid-cols-3 gap-8'>
 
@@ -20,11 +20,10 @@ export default function Footer (): JSX.Element {
           <FooterLink />
         </div>
 
-        <div className='mt-10 pt-8 border-t border-t-white border-opacity-10'>
+        <div className='pt-8 border-t border-t-white border-opacity-10'>
           <p className='text-sm text-gray-400'>Diseñado y hospedado por <a href='https://www.effortiaweb.com' target='_blank' className='text-gray-100 font-bold' rel='noreferrer'>Effortia Web</a></p>
         </div>
       </Container>
-
     </footer>
   )
 }
