@@ -91,11 +91,16 @@ export default function RootLayout ({
           {children}
         </main>
         <Footer />
-        <a href='https://api.whatsapp.com/send?phone=573152616685&text=Hola,%20quisiera%20solicitar%20una%20cita%20con%20el%20doctor%20para%20el%20d%C3%ADa%20...' target='_blank' className='fixed bottom-6 left-6 z-20 h-10 md:h-14 aspect-square hover:scale-110 transition-transform duration-300 ease-in-out' rel='noreferrer noopener'>
-          <img src='/whatsapp.svg' alt='whatsapp logo' className='object-fill drop-shadow-md' />
+        <a href='https://api.whatsapp.com/send?phone=573152616685&text=Hola,%20quisiera%20solicitar%20una%20cita%20con%20el%20doctor%20para%20el%20d%C3%ADa%20...' target='_blank' className='fixed bottom-6 left-6 z-20 h-8 md:h-12 aspect-square hover:scale-110 transition-transform duration-300 ease-in-out' rel='noreferrer noopener'>
+          <img
+            src='/whatsapp.svg'
+            alt='whatsapp logo'
+            className='object-fill drop-shadow-md'
+            loading='lazy'
+          />
         </a>
 
-        <a href='#root' className='fixed bottom-6 right-6 z-20 h-10 md:h-14 aspect-square hover:scale-110 transition duration-300 ease-in-out rounded-full bg-primary/50 hover:bg-primary hover:text-white grid place-content-center shadow-lg'>
+        <a href='#root' className='fixed bottom-6 right-6 z-20 h-10 md:h-12 aspect-square hover:scale-110 transition duration-300 ease-in-out rounded-full bg-primary/50 hover:bg-primary hover:text-white grid place-content-center shadow-lg'>
           <svg width='26px' height='26px' strokeWidth='1.5' viewBox='0 0 24 24' fill='none' xmlns='http://www.w3.org/2000/svg' color='currentColor'><path d='M6 15l6-6 6 6' stroke='currentColor' strokeWidth='1.5' strokeLinecap='round' strokeLinejoin='round' /></svg>
         </a>
       </body>
