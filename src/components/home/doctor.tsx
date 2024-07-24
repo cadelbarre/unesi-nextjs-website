@@ -39,10 +39,6 @@ export default function Doctor (): JSX.Element {
           </p>
         </div>
 
-        <Button className='bg-primary-black mt-10'>
-          Saber Más
-        </Button>
-
       </div>
     </section>
   )
