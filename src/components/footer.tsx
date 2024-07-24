@@ -20,7 +20,7 @@ export default function Footer (): JSX.Element {
           <FooterLink />
         </div>
 
-        <div className='pt-8 border-t border-t-white border-opacity-10'>
+        <div className='pt-8 border-t border-t-white border-opacity-10 text-center'>
           <p className='text-sm text-gray-400'>Diseñado y hospedado por <a href='https://www.effortiaweb.com' target='_blank' className='text-gray-100 font-bold' rel='noreferrer'>Effortia Web</a></p>
         </div>
       </Container>
