@@ -11,7 +11,7 @@ export default function TestimonialsAvatar ({
   return (
     <figcaption className='space-y-4'>
       <img
-        className='mx-auto h-14 w-14 rounded-full border-2 border-primary-black'
+        className='mx-auto h-14 w-14 rounded-full border-2 border-primary-black bg-slate-100'
         src={image} alt={`imagen de ${name}`}
         loading='lazy'
       />
