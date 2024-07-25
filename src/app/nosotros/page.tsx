@@ -1,4 +1,4 @@
-import Team from '@/components/home/team'
+import Agreements from '@/components/home/agreements'
 import Container from '@/components/share/container'
 import PageTitle from '@/components/share/page-title'
 
@@ -21,7 +21,7 @@ export default function QuienesSomos (): JSX.Element {
           <div className='h-full w-full bg-gray-200'><img src='/images/mision-vision-unesi.png' alt='misión y visión unesi' loading='lazy' className='rounded-lg w-full h-full object-cover shadow-lg shadow-primary/30' /></div>
         </div>
       </Container>
-      <Team />
+      <Agreements />
     </>
   )
 }

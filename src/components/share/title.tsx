@@ -10,7 +10,7 @@ export default function Title ({
 }): JSX.Element {
   return (
     <>
-      <h1 className={twMerge('flex flex-col text-4xl md:text-5xl text-primary-black font-bold', className)}>
+      <h1 className={twMerge('flex flex-col text-4xl lg:text-5xl text-primary-black font-bold', className)}>
         {children}
       </h1>
     </>

@@ -5,7 +5,7 @@ import Container from '../share/container'
 
 export default function Agreements (): JSX.Element {
   return (
-    <Container className='pb-14'>
+    <Container className='py-14'>
       <header className='mb-6 text-center flex flex-col justify-center items-center max-w-[42rem] mx-auto'>
         <Title>Alianzas y Convenios</Title>
       </header>

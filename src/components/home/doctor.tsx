@@ -1,13 +1,18 @@
-import Button from '../share/button'
 import Title from '../share/title'
 
 export default function Doctor (): JSX.Element {
   return (
     <section className='bg-slate-50 relative'>
-      <picture className='absolute w-0 md:w-1/2 h-full'>
-        <img src='/images/jairo-conferencia.webp' alt='Doctor Jairo Fernandez' className='object-cover object-left-top min-h-full rounded-r-2xl h-full w-full' loading='lazy' />
+      <picture className='sm:absolute w-0 md:w-1/2 h-full'>
+        <img
+          src='/images/jairo-conferencia.webp'
+          alt='Doctor Jairo Fernandez'
+          className='object-cover md:object-center lg:object-left-top min-h-full rounded-r-2xl h-full w-full'
+          loading='lazy'
+          title='Doctor Jairo Fernandez - neurocirujano'
+        />
       </picture>
-      <div className='w-full md:w-1/2 ml-auto px-6 py-16 md:px-20 md:py-24'>
+      <div className='w-full md:w-1/2 ml-auto px-6 py-8 sm:py-16 md:px-10 lg:px-20 lg:py-24'>
         <header className='mb-6'>
           <Title>
             Dr. Jairo Martin Fernandez Henríquez
@@ -27,7 +32,7 @@ export default function Doctor (): JSX.Element {
             subespecialidad en Neurocirugia Endovascular y Neurointervenvionismo
             en el Instituto E.N.E.R.I. Y SILAN en Bs As. <strong>Conferencista desde
               2005 en múltiples simposios nacionales e internacionales.
-                                                         </strong>
+            </strong>
           </p>
 
           <p>

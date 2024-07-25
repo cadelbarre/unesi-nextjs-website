@@ -10,7 +10,7 @@ export default function Banner (): JSX.Element {
   const phoneToCall = justNumber.padStart(14, '+') // add + at the begining
 
   return (
-    <section className='bg-primary-black max-w-screen p-3 text-sm tracking-wide hidden md:block '>
+    <section className='bg-primary-black max-w-screen p-3 text-sm tracking-wide hidden lg:block '>
       <Container>
         <ul className='text-white text-sm font-medium flex flex-wrap items-center justify-between [&>li]:flex gap-y-2 [&>li]:gap-x-2 [&>li]:flex-row [&>li]:items-center [&>li]:justify-center'>
           <li className='text-balance'>

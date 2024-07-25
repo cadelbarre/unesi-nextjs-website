@@ -20,9 +20,9 @@ export default function Videos (): JSX.Element {
   ]
 
   return (
-    <Container className='grid place-items-center pt-24'>
+    <Container className='grid place-items-center py-16 sm:pt-24'>
 
-      <section className='grid grid-cols-2 gap-x-10 w-full place-content-center'>
+      <section className='grid sm:grid-cols-2 gap-y-10 sm:gap-y-0 gap-x-10 w-full place-content-center'>
 
         {
           VIDEOS.map(video => {
