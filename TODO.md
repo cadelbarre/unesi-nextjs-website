@@ -10,19 +10,22 @@
 
 ## PENDIENTES
 
-- Utilizar fotos del colni ó de instagram
-- Arreglar el footer
+- Politicas de calidad colocar iconos ❌
 - Hacer conexion con Contenful para cargar la informacion
-- Politicas de calidad colocar iconos
-- Arreglar la pagina de contacto
 - disminuir un poco el logo de whatsapp
+
+- Utilizar fotos del colni ó de instagram 🔥
+- adicionar el link a la plataforma de la historia medica 'softwaremedico.com' 🔥
+- Adicionar el logo de colni al marquee 🔥
+- Arreglar el footer 🔥
+- Arreglar la pagina de contacto 🔥
+
 - Crear el correo corporativo en zoho
-- Adicionar el logo de colni al marquee
 - Colocar los logos de las clinicas que tiene convenios
-- Completar testimonial
-- Colocar los videos del doctor de youtube
-- montar los videos en cloudflare para que no se borren
-- adicionar el link a la plataforma de la historia medica 'softwaremedico.com'
+- Revisar todo el texto de las páginas
+- Arreglar los sliders que sean responsive
+- Arreglar los botones en modo mobile
+- 
 
 ## Paginas adicionales
 
