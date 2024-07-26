@@ -7,7 +7,7 @@ export default function Videos (): JSX.Element {
       url: 'https://www.youtube.com/watch?v=HAsyyVRqPO8',
       alt: 'entrevista-ciencia-y-folklor',
       img: '/images/entrevista-ciencia-y-folklor.webp',
-      title: 'Importante de conocer las diferentes patologías del cerebro',
+      title: 'Importancia de conocer las diferentes patologías del cerebro',
       description: 'Entrevista con el profesional de la salud, el doctor Jairo Fernández, hablando un poco de su vida profesional al igual que las diferentes patologías del cerebro.'
     },
     {
