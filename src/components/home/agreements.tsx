@@ -3,6 +3,22 @@ import Marquee from 'react-fast-marquee'
 import Title from '../share/title'
 import Container from '../share/container'
 
+const AGREEMENTS = [
+  'abaton',
+  'cardiovascular-cesar',
+  'cardiovida',
+  'caribe',
+  'hic',
+  'hun',
+  'iberoamerica',
+  'mar-caribe',
+  'mired',
+  'misericordia',
+  'porto',
+  'reina-catalina',
+  'san-vicente'
+]
+
 export default function Agreements (): JSX.Element {
   return (
     <Container className='py-14'>
@@ -11,14 +27,9 @@ export default function Agreements (): JSX.Element {
       </header>
       <div>
         <Marquee className='space-x-10' gradient>
-          <img src='https://www.cmsinapsis.com.co/enlaces/_1611848183.jpg' alt='logo' loading='lazy' className='ml-10 h-24 aspect-auto' />
-          <img src='https://www.cmsinapsis.com.co/enlaces/_1611848183.jpg' alt='logo' loading='lazy' className='ml-10 h-24 aspect-auto' />
-          <img src='https://www.cmsinapsis.com.co/enlaces/_1611848183.jpg' alt='logo' loading='lazy' className='ml-10 h-24 aspect-auto' />
-          <img src='https://www.cmsinapsis.com.co/enlaces/_1611848183.jpg' alt='logo' loading='lazy' className='ml-10 h-24 aspect-auto' />
-          <img src='https://www.cmsinapsis.com.co/enlaces/_1611848183.jpg' alt='logo' loading='lazy' className='ml-10 h-24 aspect-auto' />
-          <img src='https://www.cmsinapsis.com.co/enlaces/_1611848183.jpg' alt='logo' loading='lazy' className='ml-10 h-24 aspect-auto' />
-          <img src='https://www.cmsinapsis.com.co/enlaces/_1611848183.jpg' alt='logo' loading='lazy' className='ml-10 h-24 aspect-auto' />
-          <img src='https://www.cmsinapsis.com.co/enlaces/_1611848183.jpg' alt='logo' loading='lazy' className='ml-10 h-24 aspect-auto' />
+          {
+          AGREEMENTS.map(agreement => <img src={`/convenios-logos/${agreement}.webp`} alt={`logo-${agreement}`} key={agreement} loading='lazy' className='ml-10 h-24 aspect-auto' />)
+        }
         </Marquee>
       </div>
     </Container>
