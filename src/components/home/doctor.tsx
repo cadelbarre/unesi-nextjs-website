@@ -16,7 +16,7 @@ export default function Doctor (): JSX.Element {
         <header className='mb-6'>
           <Title>
             Dr. Jairo Martin Fernandez Henríquez
-            <span className='text-xl mt-1 font-medium'>Neurocirujano Endovascular</span>
+            <span className='text-xl mt-1 font-medium'>Neurocirujano Neurointervencionista</span>
           </Title>
         </header>
         <div>
