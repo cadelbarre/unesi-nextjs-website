@@ -19,13 +19,13 @@
 - Adicionar el logo de colni al marquee 🔥
 - Arreglar el footer 🔥
 - Arreglar la pagina de contacto 🔥
+- Colocar los logos de las clinicas que tiene convenios 🔥
+- Arreglar los sliders que sean responsive 🔥
+- Arreglar los botones en modo mobile 🔥
 
 - Crear el correo corporativo en zoho
-- Colocar los logos de las clinicas que tiene convenios
 - Revisar todo el texto de las páginas
-- Arreglar los sliders que sean responsive
-- Arreglar los botones en modo mobile
-- 
+
 
 ## Paginas adicionales
 
