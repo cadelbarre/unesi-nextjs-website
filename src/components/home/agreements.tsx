@@ -22,7 +22,7 @@ const AGREEMENTS = [
 export default function Agreements (): JSX.Element {
   return (
     <Container className='py-14'>
-      <header className='mb-6 text-center flex flex-col justify-center items-center max-w-[42rem] mx-auto'>
+      <header className='mb-10 text-center flex flex-col justify-center items-center max-w-[42rem] mx-auto'>
         <Title>Alianzas y Convenios</Title>
       </header>
       <div>
