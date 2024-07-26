@@ -21,10 +21,16 @@ export default function Slider (): JSX.Element {
       slidesPerView={1}
     >
       <SwiperSlide className='h-screen w-screen max-h-[40rem]'>
-        <img src='/sliders/beneficios-deporte.webp' alt='beneficios-deporte' />
+        <picture>
+          <source media='(max-width: 799px)' srcset='/sliders/beneficios-deporte-acv-mobile.webp' />
+          <img src='/sliders/beneficios-deporte-acv.webp' alt='Beneficios del deporte y el ACV' title='Beneficios del deporte y el ACV' />
+        </picture>
       </SwiperSlide>
       <SwiperSlide className='h-screen w-screen max-h-[40rem]'>
-        <img src='/sliders/tipos-de-ataques.webp' alt='tipos-de-ataques-ACV' className='object-cover object-top w-full aspect-auto block' />
+        <picture>
+          <source media='(max-width: 799px)' srcset='/sliders/tipos-de-ataques-cerebrovascular-mobile.webp' />
+          <img src='/sliders/tipos-de-ataques-cerebrovascular.webp' alt='Beneficios del deporte y el ACV' title='Beneficios del deporte y el ACV' />
+        </picture>
       </SwiperSlide>
     </Swiper>
   )
