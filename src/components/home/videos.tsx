@@ -50,7 +50,7 @@ export default function Videos (): JSX.Element {
                 </header>
 
                 <div>
-                  <h3 className='font-bold text-2xl pt-4'>{video.title}</h3>
+                  <h2 className='font-bold text-2xl pt-4'>{video.title}</h2>
                   <p>{video.description}</p>
                 </div>
               </article>
