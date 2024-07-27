@@ -23,7 +23,7 @@ export const metadata = {
   title: {
     default: 'UNESI SAS :: UNIDAD DE NEUROCIRUGIA ENDOVASCULAR STROKE E INTERVENCIONISMO S.A.S. '
   },
-  description: 'Organización conformada por un grupo de profesionales de la salud certificados a nivel nacional e internacional en el área de neurocirugía y neurocirugía intervencionista, que presta servicios especializados en el área de hemodinamia a las diferentes instituciones prestadoras de salud de la costa.',
+  description: 'Organización de profesionales de la salud certificados a nivel nacional e internacional en el área de neurocirugía y neurocirugía intervencionista, que presta servicios especializados en el área de hemodinamia a las instituciones prestadoras de salud de la costa.',
   generator: 'Next.js',
   referrer: 'origin-when-cross-origin',
   keywords: [
@@ -48,6 +48,8 @@ export const metadata = {
     'Cerebro y sistema nervioso',
     'Barranquilla, Colombia',
     'Doctor jairo fernandez hernandez',
+    'doctor jairo',
+    'neurocirugia endovascular',
     'Stroke'
   ],
   openGraph: {
