@@ -47,7 +47,7 @@
   },
   "eslintConfig": {
     "extends": [
-      ".ts-standard"
+      "./node_modules/ts-standard/eslintrc.json"
     ],
     "parserOptions": {
       "project": [
