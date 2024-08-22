@@ -18,7 +18,7 @@ export default function QuienesSomos (): JSX.Element {
               <p className='leading-relaxed'>Convertirnos en la opción número uno de las diferentes instituciones prestadoras de salud en el país en atención de neurocirugía y neurocirugía intervencionista al año 2026, ampliando nuestra cobertura nacional de manera eficaz y oportuna, respaldados por la trayectoria y eficiencia de nuestros especialistas.</p>
             </div>
           </div>
-          <div className='h-full w-full bg-gray-200'><img src='/images/mision-vision-unesi.png' alt='misión y visión unesi' loading='lazy' className='rounded-lg w-full h-full object-cover shadow-lg shadow-primary/30' /></div>
+          <div className='h-full w-full bg-gray-200'><img src='/images/mision-vision-unesi.webp' alt='misión y visión unesi' loading='lazy' className='rounded-lg w-full h-full object-cover shadow-lg shadow-primary/30' /></div>
         </div>
       </Container>
       <Agreements />
