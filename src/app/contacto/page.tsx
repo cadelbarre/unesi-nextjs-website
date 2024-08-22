@@ -21,7 +21,7 @@ export default function Contacto (): JSX.Element {
           <div className='col-span-1 space-y-8 text-gray-800'>
             <dl className='[&>dt]:font-semibold [&>dt]:text-lg [&>dt]:mt-6 [&>dt]:mb-1'>
               <dt> Edificio Medico Continental</dt>
-              <dd>Carrera 49C # 80 - 125, Conusltorio 506.</dd>
+              <dd>Carrera 49C # 80 - 125, Consultorio 506.</dd>
 
               <dt>Medios de Comunicación</dt>
               <dd className='flex flex-col'>
