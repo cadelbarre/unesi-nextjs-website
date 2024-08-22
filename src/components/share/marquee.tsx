@@ -1,5 +1,5 @@
 import MarqueeCheck from 'react-fast-marquee'
-const certificateNames = ['neurocirugia', 'radiologia', 'silan', 'uba', 'uninorte', 'colni']
+const certificateNames = ['neurocirugia', 'silan', 'uba', 'uninorte', 'colni']
 
 export default function Marquee (): JSX.Element {
   return (

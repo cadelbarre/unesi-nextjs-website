@@ -36,7 +36,7 @@ export default function Doctor (): JSX.Element {
           </p>
 
           <p>
-            Miembro activo de la Sociedad Colombiana de Neurocirugía, la Sociedad
+            Presidente de la junta directiva del Colegio Colombiano de Neurointervencionismo, la Sociedad
             Colombiana de Radiología, del Comité Académico del Grupo Colombiano
             de Neurointervenvionismo, de SILAN, Presidente Capítulo Atlántico,
             Proctor Sip Internacional y Director científico de la Red Stroke del
