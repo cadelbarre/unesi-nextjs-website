@@ -1,3 +1,4 @@
+import { Analytics } from '@vercel/analytics/react'
 import { Work_Sans, Roboto, Mulish } from 'next/font/google'
 import Header from '@/components/layout/navbar'
 import Footer from '@/components/footer'
@@ -105,6 +106,7 @@ export default function RootLayout ({
         <a href='#root' className='fixed bottom-6 right-6 z-20 h-10 md:h-12 aspect-square hover:scale-110 transition duration-300 ease-in-out rounded-full bg-primary/50 hover:bg-primary hover:text-white grid place-content-center shadow-lg'>
           <svg width='26px' height='26px' strokeWidth='1.5' viewBox='0 0 24 24' fill='none' xmlns='http://www.w3.org/2000/svg' color='currentColor'><path d='M6 15l6-6 6 6' stroke='currentColor' strokeWidth='1.5' strokeLinecap='round' strokeLinejoin='round' /></svg>
         </a>
+        <Analytics />
       </body>
     </html>
   )
