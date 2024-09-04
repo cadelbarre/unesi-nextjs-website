@@ -32,13 +32,13 @@ export default function Doctor (): JSX.Element {
             subespecialidad en Neurocirugia Endovascular y Neurointervenvionismo
             en el Instituto E.N.E.R.I. Y SILAN en Bs As. <strong>Conferencista desde
               2005 en múltiples simposios nacionales e internacionales.
-            </strong>
+                                                         </strong>
           </p>
 
           <p>
-            Presidente de la junta directiva del Colegio Colombiano de Neurointervencionismo, la Sociedad
-            Colombiana de Radiología, del Comité Académico del Grupo Colombiano
-            de Neurointervenvionismo, de SILAN, Presidente Capítulo Atlántico,
+            Presidente de la junta directiva del Colegio Colombiano de Neurointervencionismo, miembro de la Sociedad
+            Colombiana de Neurocirugia, miembro del Comité Académico del Grupo Colombiano
+            de Neurointervenvionismo, miembro de SILAN, Presidente Capítulo Atlántico,
             Proctor Sip Internacional y Director científico de la Red Stroke del
             distrito de Barranquilla.
           </p>
