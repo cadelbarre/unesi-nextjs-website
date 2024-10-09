@@ -1,10 +1,11 @@
 const unesi = {
   ubicacion: {
-    direccion: 'Edificio Continental Medical Center - Carrera 49C # 80 - 125, Consul 506.',
+    direccion:
+      'Edificio Continental Medical Center - Carrera 49C # 80 - 125, Consul 506.',
     ciudad: 'Barranquilla, Colombia'
   },
   email: 'info@unesi.com.co',
-  telefonos: '(605) 3912675 - (605) 315 261-8695',
+  telefonos: '(605) 332 6181 - (605) 315 261-8695',
   medicos: [
     {
       nombre: 'Doctor Jairo Fernandez',
