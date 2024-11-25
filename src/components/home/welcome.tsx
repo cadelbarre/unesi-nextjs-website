@@ -3,12 +3,12 @@ import Title from '../share/title'
 
 export default function Welcome (): JSX.Element {
   return (
-    <Container className='pt-24 pb-12 sm:pb-20 md:pb-28 grid grid-cols-1 md:grid-cols-2 gap-8 md:gap-12'>
-      <picture className='w-full aspect-auto relative z-0 bg-gray-200 rounded-lg'>
+    <Container className='pt-24 pb-12 sm:pb-20 md:pb-28 grid grid-cols-1 md:grid-cols-2 gap-2 md:gap-1'>
+      <picture className='w-full aspect-auto relative z-0 rounded-lg'>
         <img
-          src='/doctor_jairo_fernandez.webp'
+          src='/doctor-jairo-fernandez-formal.webp'
           alt='Doctor Jairo Fernandez'
-          className='rounded-lg w-full aspect-auto h-full object-center object-cover '
+          className='rounded-lg w-[500px] aspect-auto h-full object-top object-cover mx-auto'
           loading='lazy'
         />
       </picture>
